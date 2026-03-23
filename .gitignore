@@ -1,0 +1,6 @@
+backend-express/node_modules/
+backend-express/.env
+backend-express/*.log
+frontend/node_modules/
+frontend/build/
+frontend/*.log

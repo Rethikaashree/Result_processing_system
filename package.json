@@ -1,0 +1,17 @@
+{
+  "name": "result-processing-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "IntelGrade result processing system with a single deployable server.",
+  "scripts": {
+    "install:backend": "npm install --prefix backend-express",
+    "install:frontend": "npm install --prefix frontend",
+    "postinstall": "npm install --prefix backend-express && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend-express/server.js",
+    "dev": "npm run dev --prefix backend-express"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
